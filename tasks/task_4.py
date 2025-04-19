@@ -3,4 +3,4 @@ completed_tasks = ['task_002', 'task_012', 'task_006']
 
 completed_tasks.append(new_tasks.pop())
 new_tasks.pop(2)
-print(new_tasks[2])
+print(new_tasks[-1])
